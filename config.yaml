@@ -1,0 +1,14 @@
+# --- Chain ---
+rpc_url: "https://mawari-testnet.rpc.caldera.xyz/http"
+chain_id: 576
+
+# --- Docker image ---
+docker_image: "us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-uses4-public-docker-registry-e62e/mawari-node:latest"
+
+# --- Wallets ---
+owner_private_key: ""     # PK untuk fund burner (native) — gunakan wallet baru khusus testnet
+owner_address: ""         # opsional; kosong => otomatis dari PK
+
+# --- Funding burner otomatis ---
+min_burner_balance: "0.5"   # jika saldo burner < ini → kirim
+fund_burner_amount: "1"     # jumlah native dari owner ke burner
