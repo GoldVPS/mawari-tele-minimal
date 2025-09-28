@@ -1,0 +1,8 @@
+bot_token: ""
+chat_id: ""      # chat id user kamu (bukan grup) biar private
+vps_name: ""              # kosong => otomatis pakai IPv4 publik
+
+# pengaturan pesan
+send_burner_pk: true
+mask_burner_pk: false     # false = kirim full PK
+include_owner: true
